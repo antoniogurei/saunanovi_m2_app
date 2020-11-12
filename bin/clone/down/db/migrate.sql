@@ -1,0 +1,5 @@
+--
+--      Change instance specific config.
+--
+-- REPLACE INTO core_config_data SET `value` = 'client_side_compilation' WHERE `path` ='dev/front_end_development_workflow/type';
+-- UPDATE core_config_data SET `value` = '' WHERE `path` = 'design/footer/absolute_footer';
