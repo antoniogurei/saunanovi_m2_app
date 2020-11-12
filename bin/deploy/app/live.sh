@@ -45,7 +45,7 @@ info "Add own modules"
 ${PHP_BIN} ${COMPOSER_BIN} ${COMPOSER_FLAGS} require \
   community-engineering/language-et_ee \
   community-engineering/language-fi_fi \
-
+  markshust/magento2-module-disabletwofactorauth \
 
 info ""
 info "************************************************************************"
